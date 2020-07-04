@@ -9,7 +9,7 @@ from sklearn import preprocessing
 import sklearn.metrics
 from sklearn.metrics import confusion_matrix
 
-from sklearn. ensemble import AdaBoostClassifier
+from sklearn.ensemble import AdaBoostClassifier
 
 X = pd.read_csv("/Users/skandhvinayak/Downloads/mri-and-alzheimers/oasis_longitudinal.csv",sep=",")#get data set
 features=X[['Group']]#seperate features
